@@ -26,7 +26,7 @@ body {
     padding: 50px;
 }
 
-.container {
+.containerOne {
     width: 100%;
     height: 100%;
     display: flex;
@@ -37,7 +37,7 @@ body {
 
 .bodyOneContainer {
     text-align: left;
-    width: 50%;
+    width: 100%;
     height: 100%;
     margin-left: 50%;
 }
@@ -86,12 +86,26 @@ body {
     padding: 0 50px;
 }
 
+.divVidOneAbout {
+    height: 100%;
+    justify-content: flex-start;
+    flex: 1;
+    padding-right: 50px;
+}
+
 .cTwo {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 100px;
+}
+
+.cTwoAbout {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .head {
@@ -118,4 +132,11 @@ body {
 }
 .slides:hover {
     border: 1px solid red;
+}
+.icon {
+    height: 100px;
+    width: 100px;
+}
+.name {
+    color: #006994;
 }

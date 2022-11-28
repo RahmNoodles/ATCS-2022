@@ -64,6 +64,23 @@ body {
 
 .title {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 70px;
+    padding-bottom: 10px;
     color: #F73718
+}
+
+.resize {
+    height: 195px;
+}
+
+.resizeGames {
+    height: 400px;
+}
+
+.resize:hover {
+    transform: scale(1.2);
+}
+
+.ex {
+    overflow:hidden;
 }
